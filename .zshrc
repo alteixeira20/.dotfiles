@@ -73,11 +73,11 @@ alias kdiff='kitty +kitten diff'
 ############################
 ### Load Starship Prompt ###
 ############################
-
-if command -v starship > /dev/null 2>&1; then
+export PATH=$HOME/sgoinfre/.brew/bin:$PATH  # Homebrew path
+if [ -x "$(which starship)" ]; then
     eval "$(starship init zsh)"
 else
-    ZSH_THEME="refined"
+    echo "Starship not found or not executable"
 fi
 
 #####################################
