@@ -11,6 +11,17 @@ plug "zap-zsh/completions"
 
 # Francinette
 alias francinette="$HOME"/42porto/francinette/tester.sh
+alias franci="francinette --strict"
+
+# NeoVim
+alias nv="nvim"
+
+# Git
+alias gc="git commit -m"
+alias gg="git pull"
+alias gp="git push"
+alias ga="git add"
+alias gs="git status"
 
 # Load and initialise completion system
 autoload -Uz compinit
