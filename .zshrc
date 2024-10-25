@@ -9,6 +9,9 @@ plug "MichaelAquilina/zsh-you-should-use"
 plug "zsh-users/zsh-history-substring-search"
 plug "zap-zsh/completions"
 
+# Francinette
+alias francinette="$HOME"/42porto/francinette/tester.sh
+
 # Load and initialise completion system
 autoload -Uz compinit
 compinit
