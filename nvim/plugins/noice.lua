@@ -19,7 +19,6 @@ return {
       bottom = "─",
       bottom_right = "╯",
     }
-
     require("noice").setup({
       cmdline = {
         enabled = true,
